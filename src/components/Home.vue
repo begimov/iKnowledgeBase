@@ -110,7 +110,15 @@
         </div>
 
         <div class="container my-5">
-            <div class="row text-center">
+          <div class="row text-center">
+            <div class="col">
+              <h2 class="mb-3">СКАЧАТЬ ПОЛНЫЙ ПЕРЕЧЕНЬ</h2>
+              <Grform 
+                campaign_token="pugf"
+              />
+            </div>
+          </div>
+            <div class="row text-center mt-5">
                 <div class="col">
                     <h2 class="font-weight-bold">ЭТО ТОГО СТОИТ</h2>
                     <h4>58 практических мастер-классов в Базе знаний:</h4>
@@ -1081,16 +1089,16 @@ h3,
 }
 
 .top-header {
-  background-image: url('../assets/bg_top.jpg');
+  background-image: url("../assets/bg_top.jpg");
   background-size: cover;
 }
 
 .cards-header {
-  background-image: url('../assets/bg_2.jpg');
+  background-image: url("../assets/bg_2.jpg");
   background-size: cover;
 }
 .purchase-bg {
-  background-image: url('../assets/bg_3.jpg');
+  background-image: url("../assets/bg_3.jpg");
   background-size: cover;
 }
 </style>
