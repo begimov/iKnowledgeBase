@@ -12,7 +12,7 @@ export default {
     },
     data() {
         return {
-            //
+            paymentUrl: 'https://iteam.ru/learn/course/baza-znanij-russkij-menedzhment-2018'
         }
     },
     methods: {
