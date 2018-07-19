@@ -1,7 +1,7 @@
 <template>
   <div>
-  <div class="jumbotron text-center bg-dark text-light" style="background-image: url('img/bg_top.jpg');background-size: cover;">
-        <a href="https://iteam.ru/" target="_blank"><img src="img/logo.png" class="img-fluid"></a>
+  <div class="jumbotron text-center bg-dark text-light top-header">
+        <a href="https://iteam.ru/" target="_blank"><img src="../assets/logo.png" class="img-fluid"></a>
         <h1 class="display-4 mt-5">База знаний &laquo;Русский менеджмент 2018&raquo;</h1>
         <h3>58 мастер-классов, 170+ часов обучающего видео</h3>
         <hr class="my-4" style="background-color:#555;">
@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="row bg-dark my-5" style="background-image: url('img/bg_2.jpg');background-size: cover;">
+        <div class="row bg-dark my-5 cards-header">
             <div class="col">
                 <div class="container my-5">
                     <div class="row text-center">
@@ -796,7 +796,7 @@
             </div>
         </div>
 
-        <div class="row my-5" style="background-image: url('img/bg_3.jpg');background-size: cover;">
+        <div class="row my-5 purchase-bg">
             <div class="col">
                 <div class="container my-5">
                     <div class="row text-center">
@@ -905,7 +905,7 @@
             </div>
         </div>
 
-        <div class="row bg-dark my-5" style="background-image: url('img/bg_top.jpg');background-size: cover;">
+        <div class="row bg-dark my-5 top-header">
             <div class="col">
                 <div class="container my-5">
                     <div class="row text-light text-center">
@@ -1078,5 +1078,19 @@ h2,
 h3,
 .text-accent {
   font-family: "Noto Serif", serif;
+}
+
+.top-header {
+  background-image: url('../assets/bg_top.jpg');
+  background-size: cover;
+}
+
+.cards-header {
+  background-image: url('../assets/bg_2.jpg');
+  background-size: cover;
+}
+.purchase-bg {
+  background-image: url('../assets/bg_3.jpg');
+  background-size: cover;
 }
 </style>
