@@ -33,7 +33,7 @@ export default {
             }).then((response) => {
                 if (response.data.status === 'ok') {
                     this.msg = response.data.msg
-                    window.location.href = "https://iteam.ru/promo/processes/programm.pdf";
+                    window.location.href = "https://iteam.ru/promo/kbase2018/База знаний Русский менеджмент от iTeam.pdf";
                     // this.$router.push({ path: 'purchase' })
                     // location.reload()
                 } else if (response.data.status === 'error') {
