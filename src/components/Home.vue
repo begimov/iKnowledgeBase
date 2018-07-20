@@ -5,11 +5,10 @@
         <h1 class="display-4 mt-5">База знаний &laquo;Русский менеджмент 2018&raquo;</h1>
         <h3>58 мастер-классов, 170+ часов обучающего видео</h3>
         <hr class="my-4" style="background-color:#555;">
-        <a class="btn btn-danger btn-lg font-weight-bold" :href="paymentUrl" role="button">ПОЛУЧИТЬ СЕЙЧАС</a>
         <h3 class="mt-4"><span class="font-weight-bold">Самые нужные мастер-классы в одной библиотеке</span><br>Горячие цены для самых быстрых:</h3>
         <div id="countdown1" class="my-4 font-weight-bold"></div>
-        <h2><del>128&thinsp;000</del></h2>
-        <h1><span class="badge badge-success">39&thinsp;000~</span></h1>
+        <h1><small style="font-size:70%;"><del>128&thinsp;000 рублей</del></small> <span class="badge badge-success">49&thinsp;000~</span></h1>
+        <a class="btn btn-danger btn-lg font-weight-bold mt-4" :href="paymentUrl" role="button">ПОЛУЧИТЬ СЕЙЧАС</a>
     </div>
 
     <div class="container-fluid">
