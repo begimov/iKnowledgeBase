@@ -49,6 +49,5 @@ export default {
 <style scoped>
 .ifooter {
   padding: 20px;
-  margin-top: 100px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-  <div class="jumbotron text-center bg-dark text-light top-header">
+    <div class="jumbotron text-center bg-dark text-light top-header">
         <a href="https://iteam.ru/" target="_blank"><img src="../assets/logo.png" class="img-fluid"></a>
         <h1 class="display-4 mt-5">База знаний &laquo;Русский менеджмент 2018&raquo;</h1>
         <h3>58 мастер-классов, 170+ часов обучающего видео</h3>
@@ -109,14 +109,6 @@
         </div>
 
         <div class="container my-5">
-          <div class="row text-center">
-            <div class="col">
-              <h2 class="mb-3">СКАЧАТЬ ПОЛНЫЙ ПЕРЕЧЕНЬ</h2>
-              <Grform 
-                campaign_token="pugf"
-              />
-            </div>
-          </div>
             <div class="row text-center mt-5">
                 <div class="col">
                     <h2 class="font-weight-bold">ЭТО ТОГО СТОИТ</h2>
@@ -1018,7 +1010,7 @@
             </div>
         </div>
 
-        <div class="container mb-5">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="card my-1">
@@ -1066,6 +1058,20 @@
                             <p class="mb-2">Александр, большое спасибо за новые знания. Моя сфера деятельности - образование, но, проецируя с бизнес-разговора по теме на свою отрасль, получила неоценимую помощь. Многое упорядочилось, еще больше открылось. Еще раз огромное спасибо. С нетерпением буду ждать дальнейшего обучения. Подписалась на Ваш твиттер, фэйсбук, видеоканал. Посмотрю все видеозаписи. Думаю, пригодятся в решении проблем тех проектов, которыми занимаюсь.Удачи Вам.</p>
                             <footer class="blockquote-footer">Елена Гончарова</footer>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row text-center mt-5 bg-dark py-5 text-light">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="mb-3">Скачать список всех мастер-классов</h2>
+                        <Grform 
+                            campaign_token="nDrX"
+                        />
                     </div>
                 </div>
             </div>
