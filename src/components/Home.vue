@@ -5,9 +5,13 @@
         <h1 class="display-4 mt-5">База знаний &laquo;Русский менеджмент 2018&raquo;</h1>
         <h3>58 мастер-классов, 170+ часов обучающего видео</h3>
         <hr class="my-4" style="background-color:#555;">
-        <h3 class="mt-4"><span class="font-weight-bold">Самые нужные мастер-классы в одной библиотеке</span><br>Горячие цены для самых быстрых:</h3>
+        <h3 class="mt-4"><span class="font-weight-bold">Самые нужные мастер-классы в одной библиотеке</span>
+            <br>Горячие цены для самых быстрых:
+        </h3>
         <div id="countdown1" class="my-4 font-weight-bold"></div>
-        <h1><small style="font-size:70%;"><del>128&thinsp;000 рублей</del></small> <span class="badge badge-success">49&thinsp;000~</span></h1>
+        <h1>
+            <small style="font-size:70%;"><del>128&thinsp;000 рублей</del></small> 
+            <span class="badge badge-success">80&thinsp;000~</span></h1>
         <a class="btn btn-danger btn-lg font-weight-bold mt-4" :href="paymentUrl" role="button">ПОЛУЧИТЬ СЕЙЧАС</a>
     </div>
 
@@ -802,7 +806,7 @@
                         <div class="col">
                             <h2 class="font-weight-bold">Уже решили?</h2>
                             <h3>Готовая база знаний &laquo;Русский менеджмент&raquo;</h3>
-                            <h3 class="mt-4">Специальная цена до 31.07.18</h3>
+                            <!-- <h3 class="mt-4">Специальная цена до 31.07.18</h3> -->
                             <div id="countdown2" class="my-4 font-weight-bold"></div>
                             <p><a class="btn btn-danger btn-lg font-weight-bold" :href="paymentUrl" role="button">ПОЛУЧИТЬ ПРЯМО СЕЙЧАС</a></p>
                         </div>
@@ -911,7 +915,7 @@
                         <div class="col">
                             <h2 class="font-weight-bold">Летний безлимит 2018</h2>
                             <h3>Готовая база знаний “Русский менеджмент”</h3>
-                            <h3 class="mt-4">Специальная цена до 31.07.18</h3>
+                            <!-- <h3 class="mt-4">Специальная цена до 31.07.18</h3> -->
                             <div id="countdown3" class="my-4 font-weight-bold"></div>
                             <p><a class="btn btn-danger btn-lg font-weight-bold" :href="paymentUrl" role="button">ПОЛУЧИТЬ СЕЙЧАС</a></p>
                         </div>
